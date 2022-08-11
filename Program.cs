@@ -65,6 +65,7 @@ namespace ConsoleApp6
         {
             var cadena = Console.ReadLine();
             var data = new Program(cadena);
+            Console.WriteLine($"Las letras mayusculas son : {data.mayusculas()} \n\n Las letras minusculas son : {data.minusculas()}");
             Console.ReadLine();
         }
     }
